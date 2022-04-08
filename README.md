@@ -1,9 +1,9 @@
-# healthphilics
+# Healthphilics
 Healthphilics is a Healthcare Technology website 
 
-<h2>OUR CONTRIBUTORS</h2>
-1. Shaad
-2. Anika
-3. Avani
+# OUR CONTRIBUTORS
+1. Shaad<br>
+2. Anika<br>
+3. Avani<br>
 
 Happy Coding! :)))
