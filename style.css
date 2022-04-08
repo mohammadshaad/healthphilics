@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+body {
+    position: relative;
+    width: 1440px;
+    height: 1024px;
+    background: linear-gradient(114.61deg, #0072FF 14.4%, #2C99FD 67.81%);
+}
+
+/* unvisited link */
+a:link {
+    color: #FFFFFF;
+}
+
+/* visited link */
+a:visited {
+    color: #FFFFFF;
+}
+
+/* mouse over link */
+a:hover {
+    color: #FBFF21;
+}
+
+/* selected link */
+a:active {
+    color: #FFFFFF;
+}
+
+#CompanyName {
+    position: absolute;
+    width: 213px;
+    height: 45px;
+    left: 60px;
+    top: 0px;
+    text-decoration: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 45px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+#Home {
+    position: absolute;
+    width: 54px;
+    height: 27px;
+    left: 478px;
+    top: 10px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+#Services {
+    position: absolute;
+    width: 75px;
+    height: 27px;
+    left: 607px;
+    top: 10px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+#AboutUs {
+    position: absolute;
+    width: 81px;
+    height: 27px;
+    left: 755px;
+    top: 10px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+#OurDoctors {
+    position: absolute;
+    width: 107px;
+    height: 27px;
+    left: 907px;
+    top: 10px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+
+}
+
+#ContactUs {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    position: absolute;
+    border: none;
+    width: 168px;
+    height: 54px;
+    margin: auto;
+    left: 1194px;
+    top: 10px;
+    text-decoration: none;
+    display: inline-block;
+    align-items: center;
+    text-align: center;
+    color: #2C99FD;
+
+    background: linear-gradient(95.58deg, #FBFF21 -61.96%, #FFCB21 96.79%);
+    border-radius: 5px;
+}
+
+.wrapper{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.wrapper h1{
+    position: absolute;
+    width: 452px;
+    height: 219px;
+    left: 82px;
+    top: 200px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 73px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.02em;
+
+    color: #FFC300;
+}
+
+.wrapper a{
+    position: absolute;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #016FFA;
+    width: 297px;
+    height: 91px;
+    left: 82px;
+    top: 620px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 0px 14px 4px rgba(0, 77, 176, 0.25);
+    border-radius: 100px;
+    
+    position: absolute;  
+}
+
+.bottom{
+    position: absolute;
+    width: 1279px;
+    height: 170px;
+    left: 80px;
+    top: 812px;
+
+    background: #FFFFFF;
+    border-radius: 20px;
+}
