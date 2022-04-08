@@ -1,220 +1,234 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
 
 body {
-    position: relative;
-    width: 1440px;
-    height: 1024px;
-    background: linear-gradient(114.61deg, #0072FF 14.4%, #2C99FD 67.81%);
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(114.61deg, #0072ff 14.4%, #2c99fd 67.81%);
+  overflow-x: hidden;
 }
 
-/* unvisited link */
+a#brand-name:hover {
+  font-size: 100%;
+  color: #ffffff;
+  text-decoration: none;
+}
+
 a:link {
-    color: #FFFFFF;
+  color: #ffffff;
+  text-decoration: none;
 }
 
-/* visited link */
 a:visited {
-    color: #FFFFFF;
+  color: #ffffff;
+  text-decoration: none;
 }
 
-/* mouse over link */
 a:hover {
-    color: #FBFF21;
+  font-size: 110%;
+  color: #fbff21;
+  text-decoration: none;
 }
 
-/* selected link */
 a:active {
-    color: #FFFFFF;
+  color: #ffffff;
+  text-decoration: none;
 }
 
-#CompanyName {
-    position: absolute;
-    width: 213px;
-    height: 45px;
-    left: 60px;
-    top: 0px;
-    text-decoration: none;
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 30px;
-    line-height: 45px;
-    /* identical to box height */
+#Healthphilics {
+  position: absolute;
+  width: 213px;
+  height: 45px;
+  left: 10px;
+  top: 0px;
+  text-decoration: none;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 45px;
+  /* identical to box height */
 
-    display: flex;
-    align-items: center;
-    text-align: center;
+  display: flex;
+  align-items: center;
+  text-align: center;
 
-    color: #FFFFFF;
+  color: #ffffff;
 }
 
 #Home {
-    position: absolute;
-    width: 54px;
-    height: 27px;
-    left: 478px;
-    top: 10px;
+  position: absolute;
+  width: 54px;
+  height: 27px;
+  left: 428px;
+  top: 10px;
 
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 27px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
 
-    /* identical to box height */
+  /* identical to box height */
 
-    display: flex;
-    align-items: center;
-    text-align: center;
+  display: inline-block;
+  align-items: center;
+  text-align: center;
 
-    color: #FFFFFF;
+  color: #ffffff;
 }
 
 #Services {
-    position: absolute;
-    width: 75px;
-    height: 27px;
-    left: 607px;
-    top: 10px;
+  position: absolute;
+  width: 75px;
+  height: 27px;
+  left: 557px;
+  top: 10px;
 
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 27px;
-    /* identical to box height */
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  /* identical to box height */
 
-    display: flex;
-    align-items: center;
-    text-align: center;
+  display: flex;
+  align-items: center;
+  text-align: center;
 
-    color: #FFFFFF;
+  color: #ffffff;
 }
 
 #AboutUs {
-    position: absolute;
-    width: 81px;
-    height: 27px;
-    left: 755px;
-    top: 10px;
+  position: absolute;
+  width: 120px;
+  height: 27px;
+  left: 705px;
+  top: 10px;
 
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 27px;
-    /* identical to box height */
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  /* identical to box height */
 
-    display: flex;
-    align-items: center;
-    text-align: center;
+  display: flex;
+  align-items: center;
+  text-align: center;
 
-    color: #FFFFFF;
+  color: #ffffff;
 }
 
 #OurDoctors {
-    position: absolute;
-    width: 107px;
-    height: 27px;
-    left: 907px;
-    top: 10px;
+  position: absolute;
+  width: 150px;
+  height: 27px;
+  left: 857px;
+  top: 10px;
 
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 27px;
-    /* identical to box height */
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  /* identical to box height */
 
-    display: flex;
-    align-items: center;
-    text-align: center;
+  display: flex;
+  align-items: center;
+  text-align: center;
 
-    color: #FFFFFF;
-
+  color: #ffffff;
 }
 
-#ContactUs {
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    position: absolute;
-    border: none;
-    width: 168px;
-    height: 54px;
-    margin: auto;
-    left: 1194px;
-    top: 10px;
-    text-decoration: none;
-    display: inline-block;
-    align-items: center;
-    text-align: center;
-    color: #2C99FD;
+/* -------- Contact Us Button CSS----------*/
 
-    background: linear-gradient(95.58deg, #FBFF21 -61.96%, #FFCB21 96.79%);
-    border-radius: 5px;
+a.button:link,
+a.button:visited {
+  background-color: linear-gradient(95.58deg, #fbff21 -61.96%, #ffcb21 96.79%);
+  color: #2c99fd;
 }
 
-.wrapper{
-    max-width: 1200px;
-    margin: 0 auto;
-}
-.wrapper h1{
-    position: absolute;
-    width: 452px;
-    height: 219px;
-    left: 82px;
-    top: 200px;
-
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 60px;
-    line-height: 73px;
-    display: flex;
-    align-items: center;
-    letter-spacing: 0.02em;
-
-    color: #FFC300;
+a.button:hover,
+a.button:active {
+  block-size: 4%;
+  color: white;
 }
 
-.wrapper a{
-    position: absolute;
-
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 27px;
-    /* identical to box height */
-
-    display: flex;
-    align-items: center;
-    text-align: center;
-
-    color: #016FFA;
-    width: 297px;
-    height: 91px;
-    left: 82px;
-    top: 620px;
-
-    background: #FFFFFF;
-    box-shadow: 0px 0px 14px 4px rgba(0, 77, 176, 0.25);
-    border-radius: 100px;
-    
-    position: absolute;  
+.button {
+  font-size: 16px;
+  line-height: 24px;
+  position: absolute;
+  border: none;
+  padding: 10px 30px;
+  left: 1090px;
+  top: 10px;
+  margin: auto;
+  color: #2c99fd;
+  background: linear-gradient(95.58deg, #fbff21 -61.96%, #ffcb21 96.79%);
+  border-radius: 5px;
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
 }
 
-.bottom{
-    position: absolute;
-    width: 1279px;
-    height: 170px;
-    left: 80px;
-    top: 812px;
+/* -------- Contact Us Button CSS----------*/
 
-    background: #FFFFFF;
-    border-radius: 20px;
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.wrapper h1 {
+  position: absolute;
+  width: 452px;
+  height: 219px;
+  left: 32px;
+  top: 200px;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 73px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.02em;
+
+  color: #ffc300;
+}
+
+.wrapper a {
+  position: absolute;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  /* identical to box height */
+
+  display: inline-block;
+  align-items: center;
+  text-align: center;
+
+  color: #016ffa;
+  padding: 20px 30px;
+  left: 32px;
+  top: 520px;
+
+  background: #ffffff;
+  box-shadow: 0px 0px 14px 4px rgba(0, 77, 176, 0.25);
+  border-radius: 100px;
+
+  position: absolute;
+}
+
+.bottom {
+  position: absolute;
+  width: 1279px;
+  height: 170px;
+  left: 80px;
+  top: 812px;
+
+  background: #ffffff;
+  border-radius: 20px;
 }
